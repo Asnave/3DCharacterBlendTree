@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 66d274adaa073454d922a903c924e1b5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bear
+    second: {fileID: 2100000, guid: 55ccde15d5eeafe48b028d3dad0eae93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce
+    second: {fileID: 2100000, guid: 5230e63ab524d8346b0a4c0cade55621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ice
+    second: {fileID: 2100000, guid: 04862264982efd44bb0eddfdf0011b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Igloo1
+    second: {fileID: 2100000, guid: 2b09ac32db284f94ba9a0335d39d0bed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MountainSnow
+    second: {fileID: 2100000, guid: 0c4d8d3d150d14142831cf8c2c8d8543, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock58
+    second: {fileID: 2100000, guid: 1d9736119b2d0b74aaaa97a2a33aa82a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seal1
+    second: {fileID: 2100000, guid: 3befa02d3671ba346b957bf75b36cd9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeBraches
+    second: {fileID: 2100000, guid: dcd8e58b17f852443baf7094267e0649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf1
+    second: {fileID: 2100000, guid: 1f596d8577aea0f4e9b3a51774b42f8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiAmbientOcclusion
+    second: {fileID: 2100000, guid: 534fd440c137c1c498e838f79f9a46f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: treeBark
+    second: {fileID: 2100000, guid: a1a13a23c8636064d83f873692776939, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bear_aiAmbientOcclusion1SG_Normal
+    second: {fileID: 2800000, guid: bd1c79029c2826148b197e6ebd84de26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bear_aiAmbientOcclusion1SG_Roughness
+    second: {fileID: 2800000, guid: 6c96da1c84902d54abfd8b0b924fb240, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BranchesAlphaINVERT
+    second: {fileID: 2800000, guid: f2d0b9ff66940f24e8a7a849666aa5b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BranchesHeightMap
+    second: {fileID: 2800000, guid: 10453f093347e0748862b54a2863f650, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BranchesTexture
+    second: {fileID: 2800000, guid: 79e16eb3dee5d124eb748b6f38d01196, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce_ambientOcclusion
+    second: {fileID: 2800000, guid: f2d405493794dd944bd9bab352186867, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce_basecolor
+    second: {fileID: 2800000, guid: 3a97bee69ffeac94c8b15c0d1d691849, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce_height
+    second: {fileID: 2800000, guid: 2061d42b396f2b740a5277c7816472e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce_normal
+    second: {fileID: 2800000, guid: 74457203b69ce8b458652fa1af423bb4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GlacierIce_roughness
+    second: {fileID: 2800000, guid: c72a69fb3f22d524797473162fde13ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ice_ambientOcclusion
+    second: {fileID: 2800000, guid: e0ba328497fd8024ca4227961902222d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ice_basecolor
+    second: {fileID: 2800000, guid: 9213486208aee2d4e9fe74cf443197c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ice_normal
+    second: {fileID: 2800000, guid: 60a6a1eb6a6fd6e4abf863477f5638b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IglooTexture copy
+    second: {fileID: 2800000, guid: 2192725031177fe4a81d1b5273274a8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IglooTextureCopyHeight
+    second: {fileID: 2800000, guid: fe03bfadff61edd458329ea2d22e095a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RockTexture2
+    second: {fileID: 2800000, guid: 385de34eee18f9b419bc2d35a2b4170d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RockTexture2Normal
+    second: {fileID: 2800000, guid: 4b5a09cc881335f498a5d2ef6263d08b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SealShape
+    second: {fileID: 2800000, guid: eab1739f952e05a42aaa7924bcbdec88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seal_initialShadingGroup_BaseColor
+    second: {fileID: 2800000, guid: 4ecc3dc045547d048a586636f832a0f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Seal_initialShadingGroup_Roughness
+    second: {fileID: 2800000, guid: 5c0d478ccae32c74382f038f8691869b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TreeTexture1 copy
+    second: {fileID: 2800000, guid: 4ea8c5abd3a74bf4fb4998ad01ce9558, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TreeTexture1Normal
+    second: {fileID: 2800000, guid: 0d99ce6e55a65814a8c3fd2e10b2b549, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf_aiAmbientOcclusion1SG_BaseColor
+    second: {fileID: 2800000, guid: 88a17bec603631843b8f1a9297967a68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf_aiAmbientOcclusion1SG_Normal
+    second: {fileID: 2800000, guid: d88f0a26448c9a144b40787c24d43402, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf_aiAmbientOcclusion1SG_Roughness
+    second: {fileID: 2800000, guid: 9901f08a47d001d4395bdbeed5ef27ec, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
