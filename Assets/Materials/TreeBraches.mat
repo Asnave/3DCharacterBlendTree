@@ -141,8 +141,8 @@ Material:
     m_Floats:
     - Vector1_20ff68ea3b8047698502a84c6455cc4d: 0.5
     - Vector1_34944dc093c740c38a029371488cc6ee: 0.5
-    - Vector1_3634bf3080f4431582d68b6f9af8bb48: 2
-    - Vector1_5daf8c134d6941589b6519f1bf2c3a2d: 0.3
+    - Vector1_3634bf3080f4431582d68b6f9af8bb48: 1
+    - Vector1_5daf8c134d6941589b6519f1bf2c3a2d: 0.2
     - Vector1_9b6b9cb071f0454db55d9155bf4ae3f0: 2
     - _AORemapMax: 1
     - _AORemapMin: 0
