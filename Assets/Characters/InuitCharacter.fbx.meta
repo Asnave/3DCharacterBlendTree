@@ -3,7 +3,72 @@ guid: 639d4b549cf64354086ee6b81d89fadd
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseModel
+    second: {fileID: 2100000, guid: 1b31ed967bec9b348be4fe67a9327c77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Details
+    second: {fileID: 2100000, guid: a5da6a1c4de331f479bbe47217fc9add, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeLashes1
+    second: {fileID: 2100000, guid: c2eb25c7005939b428a5c6d4beb37e66, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BaseModel_initialShadingGroup_BaseColor2
+    second: {fileID: 2800000, guid: b60ca138c8c6ca0488abd40e1abe17f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BaseModel_initialShadingGroup_Metallic
+    second: {fileID: 2800000, guid: c46f2493b6a898047ad4abe5d5cf3940, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BaseModel_initialShadingGroup_Normal
+    second: {fileID: 2800000, guid: 3df2b8f1f81e0f14a9159fb01c65a063, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BaseModel_initialShadingGroup_Roughness
+    second: {fileID: 2800000, guid: 9a0223e1e3215444c9e1350c28253688, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: EyelashAlphaInvert
+    second: {fileID: 2800000, guid: d8ffda8712a1c05489d5d007ebfea12c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details_initialShadingGroup_BaseColor
+    second: {fileID: 2800000, guid: a329c1c2646cef6439a726949082ea33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details_initialShadingGroup_BaseColor2
+    second: {fileID: 2800000, guid: 77547062dc44305418d4f9a6b0d81586, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details_initialShadingGroup_Metallic
+    second: {fileID: 2800000, guid: 4119646d64ffd5749b95dd9411b7d69d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details_initialShadingGroup_Normal
+    second: {fileID: 2800000, guid: 0902fcd94d866df42942af4900ba7d5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: details_initialShadingGroup_Roughness
+    second: {fileID: 2800000, guid: c9359266e721dc0459be986200f3024d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
