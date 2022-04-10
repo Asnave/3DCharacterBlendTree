@@ -856,7 +856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &303886195
 Transform:
   m_ObjectHideFlags: 0
@@ -1479,6 +1479,8 @@ GameObject:
   - component: {fileID: 559723916}
   - component: {fileID: 559723915}
   - component: {fileID: 559723914}
+  - component: {fileID: 559723917}
+  - component: {fileID: 559723918}
   m_Layer: 0
   m_Name: AICaribou
   m_TagString: Untagged
@@ -1528,8 +1530,8 @@ MonoBehaviour:
   - {fileID: 742687859}
   currentWanderPoint: {fileID: 0}
   currentTime: 0
-  maxWaitTime: 0
-  minWaitTime: 0
+  maxWaitTime: 800
+  minWaitTime: 600
   aiSpeed: 0
   currentlyWaiting: 0
   aiState: 0
@@ -1548,6 +1550,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &559723917
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559723913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!54 &559723918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559723913}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &575607546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7705578035021167823, guid: 66d274adaa073454d922a903c924e1b5, type: 3}
@@ -20872,7 +20904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeOfDay: 24
-  orbitSpeed: 0.5
+  orbitSpeed: 0.3
   sun: {fileID: 705507994}
   isNight: 0
 --- !u!4 &806861658
@@ -23705,6 +23737,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450652833187331}
+  - component: {fileID: 919132148846550202}
+  - component: {fileID: 919132148846550203}
   m_Layer: 0
   m_Name: CaribouMesh
   m_TagString: Untagged
@@ -23712,6 +23746,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &919132148846550202
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148846550201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5aa41b343be680047936bc603a8f98b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &919132148846550203
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148846550201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1019718511314134764
 GameObject:
   m_ObjectHideFlags: 0
